@@ -1,69 +1,237 @@
-<html>
-    <head>
-        <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
-        <style type='text/css'>
-            body {
-                color: #444;
-                max-width: 650px;
-                margin: 40 auto;
-            }
+<!DOCTYPE html>
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<title>Botanical Gardens Software Engineering Project</title>
+		<meta name="description" content="Worthy a Bootstrap-based, Responsive HTML5 Template">
+		<meta name="author" content="htmlcoder.me">
 
-            p {
-                line-height: 1.5em;
-            }
+		<!-- Mobile Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-            .team p {
-                margin: 0.5em 0;
-            }
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="images/favicon.ico">
 
-            h3 {
-                border-bottom-style: solid;
-                border-bottom-width: 1px;
-                padding-bottom: 5px;
-            }
+		<!-- Web Fonts -->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700,300&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Raleway:700,400,300' rel='stylesheet' type='text/css'>
 
-            .right-link {
-                float: right;
-            }
+		<!-- Bootstrap core CSS -->
+		<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
 
-            a {
-                color: #3134FF;
-                text-decoration: none;
-                font-weight: normal;
-            }
+		<!-- Font Awesome CSS -->
+		<link href="fonts/font-awesome/css/font-awesome.css" rel="stylesheet">
 
-            a:hover {
-                text-decoration: underline;
-            }
-        </style>
-    </head>
-    <body>
-        <h2>Botanical Gardens SE Project</h2>
-        <p>Spring Semester 2015, Prof Buckley</p>
-        <h3>The Team</h3>
-        <div class='pure-g team'>
-            <p class='pure-u-1-3'>Patrick Jameson</p>
-            <p class='pure-u-1-3'>Joseph Peacock</p>
-            <p class='pure-u-1-3'>Michael Ferris</p>
-            <p class='pure-u-1-3'>Scott Laing</p>
-            <p class='pure-u-1-3'>Nancy Rana</p>
-            <p class='pure-u-1-3'>Jacob Reise</p>
-        </div>
-        <h3>
-            Project Statement
-            <a href='https://drive.google.com/file/d/0B39AO1dSz9F8NzlQZjNoM0Y2VXc/view?usp=sharing' target='_blank' class='right-link'>PDF Version</a>
-        </h3>
-        <p>The Buffalo Botanical Gardens is in need of a technical document detailing troubleshooting methods in a user friendly and intuitive format. The document must encompass of a variety of current problems, as well as future problems, for the staff at the Botanical Gardens to handle as they arise. This includes issues with the database, the website maintenance, and general electronic glitches that have slowly developed over time. This document will allow for the Botanical Gardens to maintain independence in the future of their current Software Engineer, and no longer need to rely on outside consultants in order to solve problems ranging from intricate solutions to simple fixes. This document will be user friendly so all readers, no matter their technical background or experience, will be able to follow along seamlessly to produce the necessary fixes.</p>
+		<!-- Plugins -->
+		<link href="css/animations.css" rel="stylesheet">
 
-        <h3>Project Requirements</h3>
-        <h4>Introduction of Problem Statement</h4>
-        <p>The Buffalo Botanical Gardens is home to tens of thousands of plant species and information, being visited on a day-to-day basis by students, scholars, and the general public at large. This database requires a large investment in cloud based data, particularly for the entries themselves as well as all of the picture information as well. With such a large scale operation, problems and inefficiencies arise that require outside consultants to resolve. The production of a user friendly troubleshooting guide for the entire staff of the Botanical Gardens to utilize, leading to independence from these consultants, is needed to ensure longevity and customization for the future.</p>
-        <h4>Background Research</h4> 
-        <p>The Botanical Gardens is a local operation with a very complex database of tens of thousands of plant species, fauna, and images that is used on a daily basis. This database naturally faces occasional technical glitches or suffers from unintuitive settings, which is currently outsourced to the Botanical Garden’s Software Engineer for the solution to be devised. The Botanical Garden wishes for a technical document to overcome this hurdle, allowing independence for both parties mutually.</p>
-        <p>In the event of the Software Engineer being preoccupied with other projects, the Garden could potentially be left with a major technical problem unable to be resolved in the necessary time frame. Further, the Garden, with a textual user manual, will be able to circumvent the inquiry completely, allowing for the Botanical Garden to create solutions for themselves as well as ensuring future customization. The staff needs the user manual to be intuitive such that any member of the staff will be able to access the document and follow along accordingly, in a step by step process to fix the issues as they arise. Creating a document encompassing enough of the multitude of current and potential issues is the challenge to be faced, requiring adaptability and the ability to continuously update the document as issues arise.</p>
-        <h4>Request of the Client</h4>
-        <p>The user manual must be able to be understood by all employees, even those lacking technical skills in the issues at hand. Employees must be able to locate the section where their issue is likely to be, and then determine which troubleshooting method will be best for their particular problem. The processes must follow a simple step-by-step procedure in order to ensure ease of use for the staff members in troubleshooting, yet complex enough to ensure the solution is properly implemented.</p>
-        <h4>Development Design</h4>
-        <p>Due to the balance necessary between technical troubleshooting as well as ease-of-use, the user manual will require a format allowing for easy searching and readability. As such, it will be divided across numerous sections, each denoted within a table of contents, to help direct the user where the most appropriate section for their solution will be. Beyond all else, it must use enough key words to allow for easy access using a search function. Within each section, the detailed methodology must be accessible for the user, yet able to fix the problem at hand with proper diligence. The document must allow for future editing, allowing for updates as issues arise and technology evolves. Further, the document must address current and likely future issues that could develop within the database, and extend beyond the database to the website functionality as well as other software currently utilized by the Gardens.</p>
-    </body>
+		<!-- Worthy core CSS file -->
+		<link href="css/style.css" rel="stylesheet">
+
+		<!-- Custom css --> 
+		<link href="css/custom.css" rel="stylesheet">
+	</head>
+
+	<body class="no-trans">
+		<!-- scrollToTop -->
+		<!-- ================ -->
+		<div class="scrollToTop"><i class="icon-up-open-big"></i></div>
+
+		<!-- header start -->
+		<!-- ================ --> 
+		<header class="header fixed clearfix navbar navbar-fixed-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+
+						<!-- header-left start -->
+						<!-- ================ -->
+						<div class="header-left clearfix">
+
+							<!-- logo -->
+							<div class="logo smooth-scroll">
+								<a href="#banner" class="logo-icon"><span class="glyphicon glyphicon-leaf"></span></a>
+							</div>
+
+							<!-- name-and-slogan -->
+							<div class="site-name-and-slogan smooth-scroll">
+								<div class="site-name"><a href="#banner">The Gardens</a></div>
+								<div class="site-slogan">Software Engineering Project, Spring 2015</div>
+							</div>
+
+						</div>
+						<!-- header-left end -->
+
+					</div>
+					<div class="col-md-8">
+
+						<!-- header-right start -->
+						<!-- ================ -->
+						<div class="header-right clearfix">
+
+							<!-- main-navigation start -->
+							<!-- ================ -->
+							<div class="main-navigation animated">
+
+								<!-- navbar start -->
+								<!-- ================ -->
+								<nav class="navbar navbar-default" role="navigation">
+									<div class="container-fluid">
+
+										<!-- Toggle get grouped for better mobile display -->
+										<div class="navbar-header">
+											<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+												<span class="sr-only">Toggle navigation</span>
+												<span class="icon-bar"></span>
+												<span class="icon-bar"></span>
+												<span class="icon-bar"></span>
+											</button>
+										</div>
+
+										<!-- Collect the nav links, forms, and other content for toggling -->
+										<div class="collapse navbar-collapse scrollspy smooth-scroll" id="navbar-collapse-1">
+											<ul class="nav navbar-nav navbar-right">
+												<li class="active"><a href="#banner">Home</a></li>
+												<li><a href="#about">The Team</a></li>
+												<li><a href="#services">Project Statement</a></li>
+												<li><a href="#portfolio">Project Requirements</a></li>
+											</ul>
+										</div>
+
+									</div>
+								</nav>
+								<!-- navbar end -->
+
+							</div>
+							<!-- main-navigation end -->
+
+						</div>
+						<!-- header-right end -->
+
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- header end -->
+
+		<!-- banner start -->
+		<!-- ================ -->
+		<div id="banner" class="banner">
+			<div class="banner-image"></div>
+			<div class="banner-caption">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 object-non-visible" data-animation-effect="fadeIn">
+							<h1 class="text-center">The <span>Botanical</span> Gardens</h1>
+							<p class="lead text-center">The Buffalo and Erie County Botanical Gardens is a living museum dedicated to advancing appreciation for and knowledge of plant life and its connection to people and cultures through its documented living plant collection, historic conservatory, education, research and exhibits.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- banner end -->
+
+		<!-- section start -->
+		<!-- ================ -->
+		<div class="section clearfix object-non-visible" data-animation-effect="fadeIn">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h1 id="about" class="title text-center">The <span>Team</span></h1>
+						<div class="row">
+							<div class="col-md-4 text-center"><h2>Patrick Jameson</h2></div>
+							<div class="col-md-4 text-center"><h2>Joseph Peacock</h2></div>
+							<div class="col-md-4 text-center"><h2>Michael Ferris</h2></div>
+						</div>
+						<div class="row">
+							<div class="col-md-4 text-center"><h2>Scott Laing</h2></div>
+							<div class="col-md-4 text-center"><h2>Nancy Rana</h2></div>
+							<div class="col-md-4 text-center"><h2>Jacob Reise</h2></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- section end -->
+
+		<!-- section start -->
+		<!-- ================ -->
+		<div class="section translucent-bg bg-image-1 blue">
+			<div class="container object-non-visible" data-animation-effect="fadeIn">
+				<h1 id="services"  class="text-center title">Project Statement</h1>
+				<div class="space"></div>
+				<p>The Buffalo Botanical Gardens is in need of a technical document detailing troubleshooting methods in a user friendly and intuitive format. The document must encompass of a variety of current problems, as well as future problems, for the staff at the Botanical Gardens to handle as they arise. This includes issues with the database, the website maintenance, and general electronic glitches that have slowly developed over time. This document will allow for the Botanical Gardens to maintain independence in the future of their current Software Engineer, and no longer need to rely on outside consultants in order to solve problems ranging from intricate solutions to simple fixes. This document will be user friendly so all readers, no matter their technical background or experience, will be able to follow along seamlessly to produce the necessary fixes.</p>
+			</div>
+		</div>
+		<!-- section end -->
+
+
+		<!-- section start -->
+		<!-- ================ -->
+		<div class="section">
+			<div class="container">
+				<h1 class="text-center title" id="portfolio">Project Requirements</h1>
+				<div class="space"></div>
+				<div class="separator"></div>
+				<h4>Introduction of Problem Statement</h4>
+		        <p>The Buffalo Botanical Gardens is home to tens of thousands of plant species and information, being visited on a day-to-day basis by students, scholars, and the general public at large. This database requires a large investment in cloud based data, particularly for the entries themselves as well as all of the picture information as well. With such a large scale operation, problems and inefficiencies arise that require outside consultants to resolve. The production of a user friendly troubleshooting guide for the entire staff of the Botanical Gardens to utilize, leading to independence from these consultants, is needed to ensure longevity and customization for the future.</p>
+				<div class="space"></div>
+		        <h4>Background Research</h4> 
+		        <p>The Botanical Gardens is a local operation with a very complex database of tens of thousands of plant species, fauna, and images that is used on a daily basis. This database naturally faces occasional technical glitches or suffers from unintuitive settings, which is currently outsourced to the Botanical Garden’s Software Engineer for the solution to be devised. The Botanical Garden wishes for a technical document to overcome this hurdle, allowing independence for both parties mutually.</p>
+		        <p>In the event of the Software Engineer being preoccupied with other projects, the Garden could potentially be left with a major technical problem unable to be resolved in the necessary time frame. Further, the Garden, with a textual user manual, will be able to circumvent the inquiry completely, allowing for the Botanical Garden to create solutions for themselves as well as ensuring future customization. The staff needs the user manual to be intuitive such that any member of the staff will be able to access the document and follow along accordingly, in a step by step process to fix the issues as they arise. Creating a document encompassing enough of the multitude of current and potential issues is the challenge to be faced, requiring adaptability and the ability to continuously update the document as issues arise.</p>
+				<div class="space"></div>
+		        <h4>Request of the Client</h4>
+		        <p>The user manual must be able to be understood by all employees, even those lacking technical skills in the issues at hand. Employees must be able to locate the section where their issue is likely to be, and then determine which troubleshooting method will be best for their particular problem. The processes must follow a simple step-by-step procedure in order to ensure ease of use for the staff members in troubleshooting, yet complex enough to ensure the solution is properly implemented.</p>
+				<div class="space"></div>
+		        <h4>Development Design</h4>
+		        <p>Due to the balance necessary between technical troubleshooting as well as ease-of-use, the user manual will require a format allowing for easy searching and readability. As such, it will be divided across numerous sections, each denoted within a table of contents, to help direct the user where the most appropriate section for their solution will be. Beyond all else, it must use enough key words to allow for easy access using a search function. Within each section, the detailed methodology must be accessible for the user, yet able to fix the problem at hand with proper diligence. The document must allow for future editing, allowing for updates as issues arise and technology evolves. Further, the document must address current and likely future issues that could develop within the database, and extend beyond the database to the website functionality as well as other software currently utilized by the Gardens.</p>
+			</div>
+		</div>
+
+		<!-- footer start -->
+		<!-- ================ -->
+		<footer id="footer">
+			<!-- .subfooter start -->
+			<!-- ================ -->
+			<div class="subfooter">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- .subfooter end -->
+
+		</footer>
+		<!-- footer end -->
+
+		<!-- JavaScript files placed at the end of the document so the pages load faster
+		================================================== -->
+		<!-- Jquery and Bootstap core js files -->
+		<script type="text/javascript" src="plugins/jquery.min.js"></script>
+		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+
+		<!-- Modernizr javascript -->
+		<script type="text/javascript" src="plugins/modernizr.js"></script>
+
+		<!-- Isotope javascript -->
+		<script type="text/javascript" src="plugins/isotope/isotope.pkgd.min.js"></script>
+		
+		<!-- Backstretch javascript -->
+		<script type="text/javascript" src="plugins/jquery.backstretch.min.js"></script>
+
+		<!-- Appear javascript -->
+		<script type="text/javascript" src="plugins/jquery.appear.js"></script>
+
+		<!-- Initialization of Plugins -->
+		<script type="text/javascript" src="js/template.js"></script>
+
+		<!-- Custom Scripts -->
+		<script type="text/javascript" src="js/custom.js"></script>
+
+	</body>
 </html>
